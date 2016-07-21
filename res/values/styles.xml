@@ -6,6 +6,32 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/ActionBarWithLogo</item>
     </style>
-
+    <style name="ActionBarWithLogo" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:foreground">@drawable/ic_restaurant_menu_white_36dp</item>
+        <item name="android:foregroundGravity">center</item>
+    </style>
+    <style name="LeftImageView">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="RightImageView" parent="LeftImageView">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="LeftTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="RightTextView" parent="LeftTextView">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
 </resources>

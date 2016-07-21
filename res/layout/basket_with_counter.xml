@@ -3,20 +3,20 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:paddingEnd="5dp"
-    android:paddingRight="5dp">
+    android:paddingRight="5dp"
+    android:clickable="true">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_shopping_cart_white_32dp"
         android:contentDescription="@string/basket"
-        android:clickable="true"
         android:id="@+id/basket"
         android:layout_marginRight="5dp"
         android:layout_marginEnd="5dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        />
+        style="@android:style/Widget.ActionButton"/>
 
     <TextView
         android:layout_width="wrap_content"

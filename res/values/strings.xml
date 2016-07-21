@@ -8,5 +8,10 @@
     <string name="picture">Picture</string>
     <string name="settings">Settings</string>
     <string name="logo">Logo</string>
+    <string name="non_veg">Non Veg Pizza</string>
+    <string name="select_food">Select Food</string>
+    <string name="veg">Veg Pizza</string>
+    <string name="custom_pizza">Custom Pizza</string>
+    <string name="other_food">Other Food</string>
 
 </resources>
