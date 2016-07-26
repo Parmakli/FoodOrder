@@ -13,5 +13,9 @@
     <string name="veg">Veg Pizza</string>
     <string name="custom_pizza">Custom Pizza</string>
     <string name="other_food">Other Food</string>
+    <string name="update_assortment">Update assortment</string>
+    <string name="update_summary">Last update:</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="unavailable">unavailable</string>
 
 </resources>
